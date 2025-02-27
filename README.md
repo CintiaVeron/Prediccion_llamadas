@@ -1,4 +1,4 @@
-# 📊 Mini Proyecto: Predicción de Volumen de Llamadas con ARIMA y Prophet
+# Predicción de Volumen de Llamadas con ARIMA y Prophet
 
 Este es un **mini proyecto de estudio** en el que exploramos cómo los modelos de series temporales **ARIMA** y **Prophet** se adaptan a la predicción del volumen de llamadas en un call center.  
 Además, utilizamos la **fórmula de Erlang-C** para estimar la cantidad óptima de agentes necesarios en función de las predicciones.  
@@ -65,7 +65,8 @@ Usamos **Erlang-C** para estimar la cantidad óptima de agentes según el volume
 La fórmula es:
 
 \(
-P(W>0) = rac{rac{(A^N / N!)}{\sum_{i=0}^{N} (A^i / i!)}}{1 - \left( rac{(A^N / N!)}{\sum_{i=0}^{N} (A^i / i!)} ight)}
+P(W>0) = rac{rac{(A^N / N!)}{\sum_{i=0}^{N} (A^i / i!)}}{1 - \left( rac{(A^N / N!)}{\sum_{i=0}^{N} (A^i / i!)} 
+ight)}
 \)
 
 Donde:
